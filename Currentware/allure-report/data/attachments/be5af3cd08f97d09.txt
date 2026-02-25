@@ -1,0 +1,43 @@
+###globalBeforeEachFailed false
+2026-02-12 16:07:01.986	INFO	utils/dataUtils.ts:8	DataUtils	Generated name 
+2026-02-12 16:07:18.444	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:07:18.616	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:07:18.620	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:07:19.683	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:07:19.684	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('text=ADD OPERATOR')
+2026-02-12 16:07:19.907	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('text=ADD OPERATOR')
+2026-02-12 16:07:19.914	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('mat-form-field input[type="text"]').first() with text: "a-10Gtb"
+2026-02-12 16:07:20.017	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('mat-form-field input[type="text"]').first() filled with text: "a-10Gtb"
+2026-02-12 16:07:20.021	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').first() with text: "On!1gcuKkit5ft5et9j"
+2026-02-12 16:07:20.132	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').first() filled with text: "On!1gcuKkit5ft5et9j"
+2026-02-12 16:07:20.136	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').nth(1) with text: "On!1gcuKkit5ft5et9j"
+2026-02-12 16:07:20.277	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').nth(1) filled with text: "On!1gcuKkit5ft5et9j"
+2026-02-12 16:07:20.280	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="text"]').nth(1) with text: "-dolores viscus vesco"
+2026-02-12 16:07:20.373	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="text"]').nth(1) filled with text: "-dolores viscus vesco"
+2026-02-12 16:07:20.378	INFO	utils/browser-utils.ts:262	BrowserUtils	Unchecking checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' })
+2026-02-12 16:07:20.539	INFO	utils/browser-utils.ts:286	BrowserUtils	Checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' }) is now unchecked.
+2026-02-12 16:07:20.544	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('ADD', { exact: true })
+2026-02-12 16:07:20.681	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('ADD', { exact: true })
+2026-02-12 16:07:25.537	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-10Gtb' }).first() to be visible.
+2026-02-12 16:07:28.086	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-10Gtb' }).first() to be visible.
+2026-02-12 16:07:28.109	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-10Gtb' }).first() is now visible.
+2026-02-12 16:07:28.745	INFO	utils/browser-utils.ts:206	BrowserUtils	Hovering over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:07:28.840	INFO	utils/browser-utils.ts:213	BrowserUtils	Hovered over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:07:29.860	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:07:30.021	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:07:39.802	INFO	utils/browser-utils.ts:206	BrowserUtils	Hovering over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:07:39.860	INFO	utils/browser-utils.ts:213	BrowserUtils	Hovered over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:07:40.875	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:07:40.975	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:07:52.175	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:07:52.449	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:07:52.451	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:07:52.707	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:07:52.712	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:07:52.956	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:07:52.958	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:07:53.165	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:07:53.177	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-10Gtb' }).first() to be visible.
+2026-02-12 16:07:53.487	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-10Gtb' }).first() is now visible.
+2026-02-12 16:07:53.623	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//span[normalize-space()=\'REMOVE\']')
+2026-02-12 16:07:53.778	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//span[normalize-space()=\'REMOVE\']')

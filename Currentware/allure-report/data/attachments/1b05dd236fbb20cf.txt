@@ -1,0 +1,11 @@
+###globalBeforeEachFailed false
+2026-02-12 16:08:12.042	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:12.196	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:12.201	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:08:13.281	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:08:13.283	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('text=ADD OPERATOR')
+2026-02-12 16:08:13.506	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('text=ADD OPERATOR')
+2026-02-12 16:08:13.530	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('div.mat-mdc-select-value').nth(1)
+2026-02-12 16:08:13.704	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('div.mat-mdc-select-value').nth(1)
+2026-02-12 16:08:13.706	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('.mdc-list-item__primary-text').filter({ hasText: 'Administrator' })
+2026-02-12 16:08:13.975	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('.mdc-list-item__primary-text').filter({ hasText: 'Administrator' })

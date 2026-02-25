@@ -1,0 +1,61 @@
+###globalBeforeEachFailed false
+2026-02-12 16:09:38.592	INFO	utils/dataUtils.ts:8	DataUtils	Generated name 
+###globalBeforeEachFailed false
+2026-02-12 16:09:55.623	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:09:55.745	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:09:55.749	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:09:56.474	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:09:56.476	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('text=ADD OPERATOR')
+2026-02-12 16:09:56.647	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('text=ADD OPERATOR')
+2026-02-12 16:09:56.651	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('mat-form-field input[type="text"]').first() with text: "a-tV8BI"
+2026-02-12 16:09:56.778	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('mat-form-field input[type="text"]').first() filled with text: "a-tV8BI"
+2026-02-12 16:09:56.781	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').first() with text: "On!1Zdy1EYcT6jkS2m8"
+2026-02-12 16:09:56.903	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').first() filled with text: "On!1Zdy1EYcT6jkS2m8"
+2026-02-12 16:09:56.904	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').nth(1) with text: "On!1Zdy1EYcT6jkS2m8"
+2026-02-12 16:09:56.952	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').nth(1) filled with text: "On!1Zdy1EYcT6jkS2m8"
+2026-02-12 16:09:56.957	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="text"]').nth(1) with text: "-crepusculum tepesco tredecim"
+2026-02-12 16:09:57.031	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="text"]').nth(1) filled with text: "-crepusculum tepesco tredecim"
+2026-02-12 16:09:57.035	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('div.mat-mdc-select-value').nth(1)
+2026-02-12 16:09:57.269	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('div.mat-mdc-select-value').nth(1)
+2026-02-12 16:09:57.271	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('.mdc-list-item__primary-text').filter({ hasText: 'Administrator' })
+2026-02-12 16:09:57.488	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('.mdc-list-item__primary-text').filter({ hasText: 'Administrator' })
+2026-02-12 16:09:57.491	INFO	utils/browser-utils.ts:262	BrowserUtils	Unchecking checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' })
+2026-02-12 16:09:57.655	INFO	utils/browser-utils.ts:286	BrowserUtils	Checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' }) is now unchecked.
+2026-02-12 16:09:57.657	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('ADD', { exact: true })
+2026-02-12 16:09:57.821	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('ADD', { exact: true })
+2026-02-12 16:09:57.826	INFO	utils/browser-utils.ts:206	BrowserUtils	Hovering over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:09:57.914	INFO	utils/browser-utils.ts:213	BrowserUtils	Hovered over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:09:58.934	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:09:59.082	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:10:14.305	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:10:14.773	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:10:14.774	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:10:15.052	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:10:15.064	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:10:17.601	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:10:24.241	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:10:30.863	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:10:37.484	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:10:37.490	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() is now visible.
+2026-02-12 16:10:37.613	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//span[normalize-space()=\'REMOVE\']')
+2026-02-12 16:10:37.763	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//span[normalize-space()=\'REMOVE\']')
+2026-02-12 16:10:37.797	INFO	utils/browser-utils.ts:206	BrowserUtils	Hovering over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:10:37.948	INFO	utils/browser-utils.ts:213	BrowserUtils	Hovered over element: locator('//down-icon[@class=\'pointer\']')
+2026-02-12 16:10:38.964	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:10:39.080	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//li[normalize-space()=\'Sign Out\']')
+2026-02-12 16:10:51.466	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:10:51.750	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:10:51.752	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:10:51.977	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:10:51.981	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:10:52.219	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:10:52.221	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:10:52.424	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:10:52.434	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:10:54.973	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:11:01.621	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:11:08.236	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:11:14.874	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() to be visible.
+2026-02-12 16:11:14.953	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-tV8BI' }).first() is now visible.
+2026-02-12 16:11:15.089	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//span[normalize-space()=\'REMOVE\']')
+2026-02-12 16:11:15.219	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//span[normalize-space()=\'REMOVE\']')

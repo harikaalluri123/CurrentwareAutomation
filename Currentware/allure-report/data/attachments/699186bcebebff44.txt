@@ -1,0 +1,103 @@
+###globalBeforeEachFailed false
+2026-02-12 16:12:32.336	INFO	utils/dataUtils.ts:8	DataUtils	Generated name 
+###globalBeforeEachFailed false
+2026-02-12 16:12:52.823	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:12:53.016	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:12:53.028	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:12:54.207	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:12:54.212	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('text=ADD OPERATOR')
+2026-02-12 16:12:54.537	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('text=ADD OPERATOR')
+2026-02-12 16:12:54.547	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('mat-form-field input[type="text"]').first() with text: "a-1jC3i"
+2026-02-12 16:12:54.652	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('mat-form-field input[type="text"]').first() filled with text: "a-1jC3i"
+2026-02-12 16:12:54.657	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').first() with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:54.820	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').first() filled with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:54.826	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').nth(1) with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:54.924	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').nth(1) filled with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:54.928	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="text"]').nth(1) with text: "-ultra thymum umquam"
+2026-02-12 16:12:55.028	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="text"]').nth(1) filled with text: "-ultra thymum umquam"
+2026-02-12 16:12:55.031	INFO	utils/browser-utils.ts:262	BrowserUtils	Unchecking checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' })
+2026-02-12 16:12:55.136	INFO	utils/browser-utils.ts:286	BrowserUtils	Checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' }) is now unchecked.
+2026-02-12 16:12:55.137	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('ADD', { exact: true })
+2026-02-12 16:12:55.239	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('ADD', { exact: true })
+2026-02-12 16:12:55.241	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('text=ADD OPERATOR')
+2026-02-12 16:12:56.242	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('text=ADD OPERATOR')
+2026-02-12 16:12:56.243	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('mat-form-field input[type="text"]').first() with text: "a-2cTHV"
+2026-02-12 16:12:56.291	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('mat-form-field input[type="text"]').first() filled with text: "a-2cTHV"
+2026-02-12 16:12:56.297	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').first() with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:56.401	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').first() filled with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:56.404	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').nth(1) with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:56.489	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').nth(1) filled with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:12:56.493	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="text"]').nth(1) with text: "-ultra thymum umquam"
+2026-02-12 16:12:56.562	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="text"]').nth(1) filled with text: "-ultra thymum umquam"
+2026-02-12 16:12:56.564	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('div.mat-mdc-select-value').nth(1)
+2026-02-12 16:12:56.729	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('div.mat-mdc-select-value').nth(1)
+2026-02-12 16:12:56.731	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('.mdc-list-item__primary-text').filter({ hasText: 'Administrator' })
+2026-02-12 16:12:56.948	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('.mdc-list-item__primary-text').filter({ hasText: 'Administrator' })
+2026-02-12 16:12:56.951	INFO	utils/browser-utils.ts:262	BrowserUtils	Unchecking checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' })
+2026-02-12 16:12:57.115	INFO	utils/browser-utils.ts:286	BrowserUtils	Checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' }) is now unchecked.
+2026-02-12 16:12:57.117	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('ADD', { exact: true })
+2026-02-12 16:12:57.260	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('ADD', { exact: true })
+2026-02-12 16:12:57.261	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:12:57.390	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:12:57.392	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:12:57.549	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:12:57.561	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-2cTHV' }).first() to be visible.
+2026-02-12 16:12:57.941	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-2cTHV' }).first() is now visible.
+2026-02-12 16:12:59.773	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-1jC3i' }).first() to be visible.
+2026-02-12 16:13:02.328	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-1jC3i' }).first() to be visible.
+2026-02-12 16:13:02.342	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-1jC3i' }).first() is now visible.
+2026-02-12 16:13:04.496	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-1jC3i' }).first() to be visible.
+2026-02-12 16:13:05.980	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-1jC3i' }).first() is now visible.
+2026-02-12 16:13:06.572	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//span[normalize-space()=\'COPY OPERATOR\']')
+2026-02-12 16:13:06.697	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//span[normalize-space()=\'COPY OPERATOR\']')
+2026-02-12 16:13:06.698	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('//input[@placeholder=\'Enter Operator Username\']') with text: "a-uR6Sv"
+2026-02-12 16:13:06.749	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('//input[@placeholder=\'Enter Operator Username\']') filled with text: "a-uR6Sv"
+2026-02-12 16:13:06.755	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('//input[@placeholder=\'Enter New Password\']') with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:13:06.888	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('//input[@placeholder=\'Enter New Password\']') filled with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:13:06.890	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('//input[@placeholder=\'Enter Confirm Password\']') with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:13:06.978	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('//input[@placeholder=\'Enter Confirm Password\']') filled with text: "On!1gQvzee_hsJfCfMB"
+2026-02-12 16:13:06.981	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('//input[@placeholder=\'Enter Description\']') with text: "-ultra thymum umquam"
+2026-02-12 16:13:07.071	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('//input[@placeholder=\'Enter Description\']') filled with text: "-ultra thymum umquam"
+2026-02-12 16:13:07.076	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('ADD USER OPERATOR')
+2026-02-12 16:13:07.325	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('ADD USER OPERATOR')
+2026-02-12 16:13:07.337	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-uR6Sv' }).first() to be visible.
+2026-02-12 16:14:39.871	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-uR6Sv' }).first() to be visible.
+2026-02-12 16:17:31.896	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:17:44.902	INFO	utils/pagination.ts:49	Pagination	Can't click 'Next', last page is reached
+2026-02-12 16:17:44.904	INFO	utils/pagination.ts:50	Pagination	
+ TimeoutError  locator.click: Timeout 90000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'Next page' })
+, TimeoutError
+error stack:
+  • pagination.ts	Pagination.clickPaginationButton
+	utils/pagination.ts:42
+  • pagination.ts	Pagination.clickNext
+	utils/pagination.ts:57
+  • pagination.ts	Pagination.iterateToFindElement
+	utils/pagination.ts:86
+  • operators.ts	OperatorsPage.findOperatorInPagination
+	pages/settings/operators/operators.ts:330
+  • operators.ts	OperatorsPage.isOperatorPresent
+	pages/settings/operators/operators.ts:232
+  • operator007.spec.ts	
+	tests/settings/operators/operator007.spec.ts:76
+2026-02-12 16:17:44.906	INFO	utils/pagination.ts:87	Pagination	Reached last page, searched element 'locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-uR6Sv' }).first()' is not found 
+2026-02-12 16:17:44.907	INFO	utils/pagination.ts:90	Pagination	
+ TimeoutError  locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-uR6Sv' }).first() to be visible
+, TimeoutError
+error stack:
+  • browser-utils.ts	BrowserUtils.resolveSelector
+	utils/browser-utils.ts:23
+  • browser-utils.ts	BrowserUtils.waitForSelector
+	utils/browser-utils.ts:147
+  • pagination.ts	Pagination.iterateToFindElement
+	utils/pagination.ts:83
+  • operators.ts	OperatorsPage.findOperatorInPagination
+	pages/settings/operators/operators.ts:330
+  • operators.ts	OperatorsPage.isOperatorPresent
+	pages/settings/operators/operators.ts:232
+  • operator007.spec.ts	
+	tests/settings/operators/operator007.spec.ts:76

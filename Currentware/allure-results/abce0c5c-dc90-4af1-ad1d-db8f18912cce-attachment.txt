@@ -1,0 +1,61 @@
+###globalBeforeEachFailed false
+2026-02-12 16:08:14.859	INFO	utils/dataUtils.ts:8	DataUtils	Generated name 
+###globalBeforeEachFailed false
+2026-02-12 16:08:31.990	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:32.160	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:32.163	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:08:33.265	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:08:33.266	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('text=ADD OPERATOR')
+2026-02-12 16:08:33.543	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('text=ADD OPERATOR')
+2026-02-12 16:08:33.549	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('mat-form-field input[type="text"]').first() with text: "a-df4sk"
+2026-02-12 16:08:33.688	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('mat-form-field input[type="text"]').first() filled with text: "a-df4sk"
+2026-02-12 16:08:33.690	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').first() with text: "On!1bCNoEdQZhYyNxN6"
+2026-02-12 16:08:33.805	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').first() filled with text: "On!1bCNoEdQZhYyNxN6"
+2026-02-12 16:08:33.808	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="password"]').nth(1) with text: "On!1bCNoEdQZhYyNxN6"
+2026-02-12 16:08:33.871	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="password"]').nth(1) filled with text: "On!1bCNoEdQZhYyNxN6"
+2026-02-12 16:08:33.873	INFO	utils/browser-utils.ts:127	BrowserUtils	Filling input field: locator('input[type="text"]').nth(1) with text: "-stella ademptio sursum"
+2026-02-12 16:08:33.949	INFO	utils/browser-utils.ts:134	BrowserUtils	Input field: locator('input[type="text"]').nth(1) filled with text: "-stella ademptio sursum"
+2026-02-12 16:08:33.953	INFO	utils/browser-utils.ts:262	BrowserUtils	Unchecking checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' })
+2026-02-12 16:08:34.100	INFO	utils/browser-utils.ts:286	BrowserUtils	Checkbox: getByRole('checkbox', { name: 'Enable Two-Factor Authentication' }) is now unchecked.
+2026-02-12 16:08:34.102	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('ADD', { exact: true })
+2026-02-12 16:08:34.241	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('ADD', { exact: true })
+2026-02-12 16:08:34.245	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:34.458	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:34.460	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:08:34.664	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:08:34.666	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:34.868	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByRole('link', { name: 'Settings' })
+2026-02-12 16:08:34.869	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: getByText('Operators')
+2026-02-12 16:08:35.056	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: getByText('Operators')
+2026-02-12 16:08:35.067	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:08:37.609	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:08:44.270	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:08:44.280	INFO	utils/browser-utils.ts:148	BrowserUtils	Selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() is now visible.
+2026-02-12 16:08:44.443	INFO	utils/browser-utils.ts:51	BrowserUtils	Clicking on element: locator('//span[normalize-space()=\'REMOVE\']')
+2026-02-12 16:08:44.616	INFO	utils/browser-utils.ts:60	BrowserUtils	Clicked on element: locator('//span[normalize-space()=\'REMOVE\']')
+2026-02-12 16:09:03.524	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:09:06.097	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:09:12.738	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:09:19.367	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:09:26.023	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:09:32.649	INFO	utils/browser-utils.ts:146	BrowserUtils	Waiting for selector: locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible.
+2026-02-12 16:09:37.679	INFO	utils/pagination.ts:36	Pagination	Can't click 'Next', last page is reached
+2026-02-12 16:09:37.681	INFO	utils/pagination.ts:87	Pagination	Reached last page, searched element 'locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first()' is not found 
+2026-02-12 16:09:37.682	INFO	utils/pagination.ts:90	Pagination	
+ TimeoutError  locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//td[contains(@class,\'cdk-column-OPERATOR_NAME\')]').filter({ hasText: 'a-df4sk' }).first() to be visible
+, TimeoutError
+error stack:
+  • browser-utils.ts	BrowserUtils.resolveSelector
+	utils/browser-utils.ts:23
+  • browser-utils.ts	BrowserUtils.waitForSelector
+	utils/browser-utils.ts:147
+  • pagination.ts	Pagination.iterateToFindElement
+	utils/pagination.ts:83
+  • operators.ts	OperatorsPage.findOperatorInPagination
+	pages/settings/operators/operators.ts:330
+  • operators.ts	OperatorsPage.isOperatorPresent
+	pages/settings/operators/operators.ts:232
+  • operator004.spec.ts	
+	tests/settings/operators/operator004.spec.ts:48

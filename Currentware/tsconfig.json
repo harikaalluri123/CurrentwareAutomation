@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "target": "ESNext", // Use the latest ECMAScript version
+      "module": "CommonJS", // Node.js module system
+      "strict": true, // Enable all strict type-checking options
+      "esModuleInterop": true, // Allows default imports from CommonJS modules
+      "moduleResolution": "Node", // Resolve modules in the Node.js style
+      "outDir": "dist", // Output directory for compiled files
+      "rootDir": ".", // Root directory of input files
+      "skipLibCheck": true, // Skip type checking of declaration files
+      "resolveJsonModule": true, // Allow importing .json files
+      "types": ["node", "@playwright/test"], // Include Playwright types
+      "allowJs": true, // Allow JavaScript files to be compiled
+      "sourceMap": true, // Generate source maps for debugging
+      "noImplicitAny": true, // Raise errors on expressions and declarations with an implied `any` type
+      "baseUrl": ".", // Base directory for module resolution
+      "paths": {
+        "@models/*": ["Currentware/models/*"], // Paths for easy imports
+        "@pages/*": ["pages/*"], // Alias for pages directory
+        "@tests/*": ["Currentware/tests/*"], // Alias for tests directory
+        "@utils/*": ["utils/*"], // Alias for utils directory
+        "@components/*": ["components/*"], // Alias for components directory
+        "@data-factories/*": ["Currentware/data-factories/*"], // Alias for data-factories directory
+        "@api/*": ["Currentware/api/*"] // Alias for api directory
+      }
+    },
+    "include": [
+      "**/*.ts", // Include all TypeScript files
+      "Currentware/playwright.config.ts" // Include Playwright's config file
+    ],
+    "exclude": [
+      "node_modules", // Exclude node_modules
+      "dist" // Exclude output directory
+    ]
+  }
+  

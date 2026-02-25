@@ -1,0 +1,30 @@
+{
+  "name": "currentware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/vite/bin/vite.js",
+    "clean:allure": "rimraf allure-results allure-report",
+    "test": "node node_modules/@playwright/test/cli.js test",
+    "test:regression": "node node_modules/@playwright/test/cli.js test --grep @regression",
+    "test:regression:report": "node node_modules/@playwright/test/cli.js test --grep @regression && npm run report",
+    "genreport": "npx allure generate allure-results --clean -o allure-report",
+    "openreport": "npx allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.4.5",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "tslog": "^4.10.2"
+  }
+}
