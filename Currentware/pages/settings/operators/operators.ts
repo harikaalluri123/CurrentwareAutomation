@@ -237,7 +237,10 @@ export class OperatorsPage {
         description: string,
     ): Promise<void> {
         await BrowserUtils.fill(this.page, this.copyOperatorUsername, username);
+        await this.page.waitForTimeout(300);
         await BrowserUtils.fill(this.page, this.copyOperatorPassword, password);
+        await this.page.waitForTimeout(300);
+        await BrowserUtils.click(this.page, this.copyOperatorConfirmPassword);
         await BrowserUtils.fill(this.page, this.copyOperatorConfirmPassword, confirmPassword);
         await BrowserUtils.fill(this.page, this.copyDescription, description);
         await BrowserUtils.click(this.page, this.addUserOperatorButton);
