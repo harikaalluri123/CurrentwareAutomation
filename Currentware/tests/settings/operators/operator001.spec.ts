@@ -1,4 +1,3 @@
-
 import { OperatorsPage } from "@pages/settings/operators/operators";
 import { expect, test } from "@utils/baseTest";
 import { LoginPage } from "@pages/login/loginPage";

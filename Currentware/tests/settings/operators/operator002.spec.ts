@@ -34,11 +34,6 @@ test.describe("Operators Page Tests", () => {
         false
       );
       await page.reload();
-      // const getOperatorNameOnPage = await operatorPage.getOperatorByName(
-      //   operatorUsername,
-      // );
-      // //verifying the operator is added successfully
-      // await expect(getOperatorNameOnPage).toBeVisible();
       const isAdded = await operatorPage.isOperatorPresent(operatorUsername);
       expect(isAdded).toBeTruthy();
       await loginPage.logout();

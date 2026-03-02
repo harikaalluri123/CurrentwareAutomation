@@ -68,11 +68,6 @@ test.describe("Operators Page Tests", () => {
         password,
         description,
       );
-      // const getOperatorNameOnPage = await operatorPage.getOperatorByName(
-      //   copyOperatorUsername,
-      // );
-      // //verifying the operator is deleted successfully
-      // await expect(getOperatorNameOnPage).toBeVisible();
       const isCopied = await operatorPage.isOperatorPresent(copyOperatorUsername);
       expect(isCopied).toBeTruthy();
     }

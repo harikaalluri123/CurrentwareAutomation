@@ -40,11 +40,6 @@ test.describe("Operators Page Tests", () => {
       await operatorPage.goToOperators();
       await operatorPage.removeOperator(operatorUsername);
       await operatorPage.page.reload();
-      // const getOperatorNameOnPage = await operatorPage.getOperatorByName(
-      //   operatorUsername,
-      // );
-      // //verifying the operator is deleted successfully
-      // await expect(getOperatorNameOnPage).not.toBeVisible();
       const isOperatorPresentOnPage = await operatorPage.isOperatorPresent(operatorUsername);
       expect(isOperatorPresentOnPage).toBeFalsy();
     }

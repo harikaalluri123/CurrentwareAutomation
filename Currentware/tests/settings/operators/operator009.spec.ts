@@ -78,8 +78,6 @@ test.describe("Operators Page Tests - Edit Operator Functionality", () => {
 
             //Verify the operator username was not updated
             await operatorPage.page.reload();
-            // const updatedOperator = await operatorPage.getOperatorByName(emailAsUsername);
-            // await expect(updatedOperator).not.toBeVisible();
             const isUpdated = await operatorPage.isOperatorPresent(emailAsUsername);
             expect(isUpdated).toBeFalsy();
 

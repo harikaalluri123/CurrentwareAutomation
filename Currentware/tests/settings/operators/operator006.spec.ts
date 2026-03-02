@@ -48,20 +48,11 @@ test.describe("Operators Page Tests", () => {
         async () => {
             await operatorPage.page.reload();
             await operatorPage.removeOperator(operatorUsername1, true);
-            // const getOperatorNameOnPage = await operatorPage.getOperatorByName(
-            //     operatorUsername1,
-            // );
-            // //verifying the operator is deleted successfully
-            // await expect(getOperatorNameOnPage).not.toBeVisible();
             const isDeleted = await operatorPage.isOperatorPresent(operatorUsername1);
             expect(isDeleted).toBeFalsy();
             //Click No on the confirmation popup.
             await operatorPage.clickRemove(operatorUsername2);
             await operatorPage.clickNoButton();
-            // const getOperatorNameOnPage2 = await operatorPage.getOperatorByName(
-            //     operatorUsername2,
-            // );
-            // expect(getOperatorNameOnPage2).toBeVisible();
             const isDeleted2 = await operatorPage.isOperatorPresent(operatorUsername2);
             expect(isDeleted2).toBeTruthy();
 
