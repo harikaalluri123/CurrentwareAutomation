@@ -134,17 +134,6 @@ export class OperatorsPage {
         await BrowserUtils.click(this.page, this.addButton);
     }
 
-    // async removeOperator(username: string, transferSubscription?: boolean): Promise<void> {
-    //     await this.goToSettings();
-    //     await this.goToOperators();
-    //     await this.clickRemove(username);
-    //     if (transferSubscription === true) {
-    //         await this.clickSubscriptionCheckbox();
-    //     }
-    //     await BrowserUtils.click(this.page, this.yesButton);
-    //     await this.page.waitForLoadState('networkidle');
-        
-    // }
 
     async removeOperator(username: string, transferSubscription?: boolean): Promise<void> {
         await this.goToSettings();

@@ -21,7 +21,7 @@ test.describe("Operators Page Tests", () => {
 
   test(
     "[TC002 Verify Add Local Operator Functionality]",
-    { tag: ["@TC001", "@regression"] },
+    { tag: ["@TC002", "@regression"] },
     async ({ page }) => {
       await operatorPage.goToSettings();
       await operatorPage.goToOperators();

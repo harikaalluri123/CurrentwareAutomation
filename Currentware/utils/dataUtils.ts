@@ -17,6 +17,14 @@ export class DataUtils {
     return `a-${faker.string.alphanumeric(5)}`; 
   }
 
+  static randomEmail() {
+    return `user@${faker.internet.domainWord()}.com`;
+  }
+
+  static randomPhoneNumber() {
+    return faker.phone.number();
+  }
+
   static randomAlphaNumericName(name="") {
     return `e2e${name}${faker.string.alphanumeric(10)}`; 
   }
