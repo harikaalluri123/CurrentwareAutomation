@@ -1,28 +1,28 @@
-import { OnBoardingPage } from "@pages/onboardingJourney/onBoarding";
+import { SaasPage } from "@pages/onboardingJourney/saasPage";
 import { SignUpPage } from "@pages/onboardingJourney/signUp";
 import { expect, test } from "@utils/baseTest";
 
 test.describe("Onboarding Journey Test", () => {
-    let onBoardingPage: OnBoardingPage;
+   
     let signUpPage: SignUpPage;
-
+    let saasPage: SaasPage;
     test.beforeEach(async ({ page }) => {
-        onBoardingPage = new OnBoardingPage(page);
+        saasPage = new SaasPage(page);
         signUpPage = new SignUpPage(page);
     });
 
     test(
-        "[Journey003: Continue button is disabled when signup form has no data]",
+        "[Journey003: Continue button is disabled when mandatory fields are left empty]",
         { tag: ["@journey003", "@regression"] },
         async ({ page }) => {
 
-            await onBoardingPage.goto();
-            await onBoardingPage.clickStartTrialButton();
+            await saasPage.goto();
+            await saasPage.clickStartTrialButton();
 
-            // 3. Do not enter any data in the signup form; wait for form to load
+            //Do not enter any data in the signup form; wait for form to load
             await signUpPage.continueButton.waitFor({ state: "visible" });
 
-            // Expect: Continue button is disabled
+            //Continue button is disabled
             await expect(signUpPage.continueButton).toBeDisabled();
         }
     );

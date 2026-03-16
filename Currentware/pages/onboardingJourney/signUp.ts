@@ -25,6 +25,16 @@ export class SignUpPage {
     readonly requiredFieldAsterisks: Locator;
     readonly businessEmailError: Locator;
     readonly invalidEmailFormatError: Locator;
+    readonly fullNameMinLengthError: Locator;
+    readonly fullNameRequiredLabel: Locator;
+    readonly emailRequiredLabel: Locator;
+    readonly companyNameRequiredLabel: Locator;
+    readonly phoneNumberRequiredLabel: Locator;
+    readonly orgSizeRequiredLabel: Locator;
+    readonly confirmEmailHeading: Locator;
+    readonly confirmEmailInstructionText: Locator;
+    readonly confirmEmailContinueButton: Locator;
+    readonly confirmEmailResendLink: Locator;
 
     constructor(page: Page) {
         this.page = page;
@@ -50,6 +60,16 @@ export class SignUpPage {
             .or(page.locator('.mat-form-field-required-marker, [class*="required-marker"], .label-required'));
         this.businessEmailError = page.getByText('Please use a business email address', { exact: false });
         this.invalidEmailFormatError = page.getByText('Invalid email format', { exact: false });
+        this.fullNameMinLengthError = page.getByText('Please enter your full name (at least 2 characters)', { exact: false });
+        this.fullNameRequiredLabel = page.locator('.label-required').filter({ hasText: 'Your Name' });
+        this.emailRequiredLabel = page.locator('.label-required').filter({ hasText: 'Your Email Address' });
+        this.companyNameRequiredLabel = page.locator('.label-required').filter({ hasText: 'Company Name' });
+        this.phoneNumberRequiredLabel = page.locator('.label-required').filter({ hasText: 'Your Phone Number' });
+        this.orgSizeRequiredLabel = page.locator('.label-required').filter({ hasText: 'Your Organization Size' });
+        this.confirmEmailHeading = page.getByRole('heading', { name: /Confirm your email/i }).or(page.locator('h1, h2').filter({ hasText: 'Confirm your email' }));
+        this.confirmEmailInstructionText = page.getByText(/6-digit verification code/i);
+        this.confirmEmailContinueButton = page.getByRole('button', { name: /Continue/i });
+        this.confirmEmailResendLink = page.getByText(/Re-send/i);
     }
 
     async goto(): Promise<void> {
@@ -70,6 +90,15 @@ export class SignUpPage {
 
     async fillPhoneNumber(phone: string): Promise<void> {
         await BrowserUtils.fill(this.page, this.phoneNumberInput, phone);
+    }
+
+    async selectCountry(countryName: string): Promise<void> {
+        await BrowserUtils.selectCustomDropdown(
+            this.page,
+            this.countrySelectButton,
+            countryName,
+            { optionSelector: "button.country-option" }
+        );
     }
 
     async selectOrgSize(option: string): Promise<void> {
@@ -94,6 +123,20 @@ export class SignUpPage {
 
     async declineCookies(): Promise<void> {
         await BrowserUtils.click(this.page, this.cookieDeclineButton);
+    }
+
+    async fillForm(name: string, email: string, companyName: string, phone: string, country: string, orgSize: string): Promise<void> {
+        await this.fillFullName(name);
+        await this.fillEmail(email);
+        await this.fillCompanyName(companyName);
+        await this.fillPhoneNumber(phone);
+        await this.selectCountry(country);
+        await this.selectOrgSize(orgSize);
+        await this.setTermsAccepted(true);
+    }
+
+    async expectConfirmEmailPageVisible(): Promise<void> {
+        await this.confirmEmailHeading.waitFor({ state: 'visible' });
     }
 
 }

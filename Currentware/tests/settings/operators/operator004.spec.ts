@@ -34,7 +34,7 @@ test.describe("Operators Page Tests", () => {
 
   test(
     "[TC004: Verify Delete Operator Functionality]",
-    { tag: ["@TC005", "@regression"] },
+    { tag: ["@TC004", "@regression"] },
     async () => {
       await operatorPage.goToSettings();
       await operatorPage.goToOperators();

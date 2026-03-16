@@ -6,7 +6,7 @@ test.describe("Onboarding Journey Test", () => {
     let signUpPage: SignUpPage;
     const name = DataUtils.randomName();
     const emailWithTwoAt = "user@@company.com";
-    const phone = DataUtils.randomPhoneNumber();
+    const phone = DataUtils.randomPhoneNumber(10);
     const orgSize = "11-50 employees";
 
     test.beforeEach(async ({ page }) => {
@@ -14,7 +14,7 @@ test.describe("Onboarding Journey Test", () => {
     });
 
     test(
-        "[Journey007: Continue disabled when email has two @ symbols]",
+        "[Journey007: Verify Business Email Validation with Multiple '@' Symbols]",
         { tag: ["@journey007", "@regression"] },
         async () => {
             // Navigate to signup page

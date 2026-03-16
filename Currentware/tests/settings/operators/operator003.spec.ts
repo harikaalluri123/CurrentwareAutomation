@@ -14,7 +14,7 @@ test.describe("Operators Page Tests - Edit Permission Button Visibility", () => 
 
     test(
         "[TC003] Validate Roles and Permissions for Add Local Operator",
-        { tag: ["@TC017", "@regression"] },
+        { tag: ["@TC003", "@regression"] },
         async ({ page }) => {
             await operatorPage.goToSettings();
             await operatorPage.goToOperators();

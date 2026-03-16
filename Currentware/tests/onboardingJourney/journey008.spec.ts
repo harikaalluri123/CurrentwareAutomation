@@ -10,7 +10,7 @@ test.describe("Onboarding Journey Test", () => {
     });
 
     test(
-        "[Journey008: Phone Number field does not accept alphabetic characters]",
+        "[Journey008: Verify Phone Number Field Does Not Accept Alphabetic Characters]",
         { tag: ["@journey008", "@regression"] },
         async () => {
             // Navigate to signup page (page with Phone Number field)

@@ -10,7 +10,7 @@ test.describe("Onboarding Journey Test", () => {
     });
 
     test(
-        "[Journey006: Business Email - no domain shows error]",
+        "[Journey006: Verify Business Email field validation without Domain]",
         { tag: ["@journey006", "@regression"] },
         async () => {
             // Navigate to signup page

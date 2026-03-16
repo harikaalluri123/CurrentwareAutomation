@@ -239,6 +239,42 @@ export class BrowserUtils {
     log.info(`Option: "${value}" selected from dropdown: ${selector}`);
   }
 
+  /**
+   * Selects an option from a custom dropdown (non–native &lt;select&gt;).
+   * Clicks the trigger to open the dropdown, then clicks the matching option.
+   *
+   * @param page - Playwright page
+   * @param trigger - Locator or selector for the dropdown trigger (button/div that opens the list)
+   * @param optionText - Visible text of the option to select (e.g. "India", "Administrator")
+   * @param config - Optional: optionSelector for custom option elements (e.g. "button.country-option").
+   *                 If not set, uses getByRole("option") for standard ARIA option elements.
+   */
+  static async selectCustomDropdown(
+    page: Page,
+    trigger: string | Locator,
+    optionText: string,
+    config: {
+      optionSelector?: string;
+      timeout?: number;
+      state?: "attached" | "detached" | "visible" | "hidden";
+    } = { state: "visible", timeout: 20000 }
+  ): Promise<void> {
+    const options = {
+      state: config.state ?? "visible",
+      timeout: config.timeout ?? 20000,
+    };
+    log.info(`Opening custom dropdown and selecting option: "${optionText}"`);
+    await this.click(page, trigger, false, options);
+    const optionLocator = config.optionSelector
+      ? page
+          .locator(config.optionSelector)
+          .filter({ hasText: new RegExp(optionText, "i") })
+          .first()
+      : page.getByRole("option", { name: new RegExp(optionText, "i") });
+    await this.click(page, optionLocator, false, options);
+    log.info(`Selected option: "${optionText}"`);
+  }
+
   static async setCheckbox(
     page: Page,
     selector: string | Locator,

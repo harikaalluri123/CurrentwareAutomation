@@ -13,16 +13,16 @@ export class DataUtils {
     return `On!1${faker.internet.password({ length: 15 })}`; 
   }
 
-  static randomName(id="id") {
-    return `a-${faker.string.alphanumeric(5)}`; 
+  static randomName(length: number = 5): string {
+    return `a-${faker.string.alpha(length)}`;
   }
 
   static randomEmail() {
     return `user@${faker.internet.domainWord()}.com`;
   }
 
-  static randomPhoneNumber() {
-    return faker.phone.number();
+  static randomPhoneNumber(digits: number) {
+    return faker.string.numeric(digits);
   }
 
   static randomAlphaNumericName(name="") {
