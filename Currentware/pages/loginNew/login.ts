@@ -69,11 +69,16 @@ export class LoginPageNew {
     async login(email: string, password: string): Promise<boolean> {
         await this.fillBusinessEmail(email);
         await this.fillPassword(password);
-        await BrowserUtils.performActionAndWaitForNavigation(
-            this.page,
-            async () => await this.clickSignIn()
-          );
-          return true;
+        await this.clickSignIn();
+        try {
+            await BrowserUtils.performActionAndWaitForNavigation(
+                this.page,
+                async () => await this.clickSignIn()
+            );
+            return true;
+        } catch {
+            return false;
+        }
     }
 
     async logout(): Promise<void> {
