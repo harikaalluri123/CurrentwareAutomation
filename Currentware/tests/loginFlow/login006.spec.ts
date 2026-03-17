@@ -18,7 +18,7 @@ test.describe("Login Flow", () => {
 
     test(
         "[Login006: Verify user is redirected back to login page after logout]",
-        { tag: ["@login006", "@regression"] },
+        { tag: [ "@login006", "@regression" ] },
         async ({ page }) => {
             await expect(loginPage.errorMessage).toBeVisible();
             await loginPage.login(USER_NAME, USER_PASSWORD);

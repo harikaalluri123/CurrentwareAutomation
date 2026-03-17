@@ -11,7 +11,7 @@ test.describe("Login Flow", () => {
 
     test(
         "[Login005: Verify password is masked when entered]",
-        { tag: ["@login005", "@regression"] },
+        { tag: [ "@login005", "@regression" ] },
         async () => {
             await loginPage.goto(CONSOLE_LOGIN_URL);
             await loginPage.fillPassword(USER_PASSWORD);
